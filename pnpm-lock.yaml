@@ -37,7 +37,7 @@ importers:
         specifier: ^0.7.1
         version: 0.7.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@movie-web/providers':
-        specifier: github:zyr-ux/movie-flix_providers
+        specifier: github:sussy-code/providers
         version: https://codeload.github.com/sussy-code/providers/tar.gz/b04c921b5533e6f53a58c3a0406d90ad2f076c05
       '@noble/hashes':
         specifier: ^1.4.0
