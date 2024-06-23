@@ -37,8 +37,8 @@ importers:
         specifier: ^0.7.1
         version: 0.7.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@movie-web/providers':
-        specifier: github:zyr-ux/movie-flix_providers#dev
-        version: https://codeload.github.com/zyr-ux/movie-flix_providers/tar.gz/2648cd6ccad4ed21a1b36a26289c3792c9086591
+        specifier: github:zyr-ux/movie-flix_providers#alpha
+        version: https://codeload.github.com/zyr-ux/movie-flix_providers/tar.gz/cfa2b367c1bd175c8fe4df2f157e9c2ee28ef72d
       '@noble/hashes':
         specifier: ^1.4.0
         version: 1.4.0
@@ -1197,8 +1197,8 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
-  '@movie-web/providers@https://codeload.github.com/zyr-ux/movie-flix_providers/tar.gz/2648cd6ccad4ed21a1b36a26289c3792c9086591':
-    resolution: {tarball: https://codeload.github.com/zyr-ux/movie-flix_providers/tar.gz/2648cd6ccad4ed21a1b36a26289c3792c9086591}
+  '@movie-web/providers@https://codeload.github.com/zyr-ux/movie-flix_providers/tar.gz/cfa2b367c1bd175c8fe4df2f157e9c2ee28ef72d':
+    resolution: {tarball: https://codeload.github.com/zyr-ux/movie-flix_providers/tar.gz/cfa2b367c1bd175c8fe4df2f157e9c2ee28ef72d}
     version: 2.3.0
 
   '@noble/hashes@1.4.0':
@@ -2443,9 +2443,6 @@ packages:
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
-
-  hls-parser@0.13.2:
-    resolution: {integrity: sha512-lKZitdq8Awcsb271BkbUCzXgBBZEhnMNcyAqre/cns2hItCV8nF3ucleT2QS37Ck+eUv7LwAD1t+F/1D/Vxkgg==}
 
   hls.js@1.5.11:
     resolution: {integrity: sha512-q3We1izi2+qkOO+TvZdHv+dx6aFzdtk3xc1/Qesrvto4thLTT/x/1FK85c5h1qZE4MmMBNgKg+MIW8nxQfxwBw==}
@@ -5233,13 +5230,12 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@movie-web/providers@https://codeload.github.com/zyr-ux/movie-flix_providers/tar.gz/2648cd6ccad4ed21a1b36a26289c3792c9086591':
+  '@movie-web/providers@https://codeload.github.com/zyr-ux/movie-flix_providers/tar.gz/cfa2b367c1bd175c8fe4df2f157e9c2ee28ef72d':
     dependencies:
       cheerio: 1.0.0-rc.12
       cookie: 0.6.0
       crypto-js: 4.2.0
       form-data: 4.0.0
-      hls-parser: 0.13.2
       iso-639-1: 3.1.2
       nanoid: 3.3.7
       node-fetch: 3.3.2
@@ -6754,8 +6750,6 @@ snapshots:
   hasown@2.0.2:
     dependencies:
       function-bind: 1.1.2
-
-  hls-parser@0.13.2: {}
 
   hls.js@1.5.11: {}
 
